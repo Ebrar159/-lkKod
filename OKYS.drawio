@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sayfa-1" id="m2TkbXg3g8EpAOVfBu5W">
+    <mxGraphModel dx="1548" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9T72iN5jzkLBOK2CJky1-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Kitap" vertex="1">
+          <mxGeometry height="164" width="160" x="369" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-2" parent="9T72iN5jzkLBOK2CJky1-1" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png" value="ISBN: string" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-3" parent="9T72iN5jzkLBOK2CJky1-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Adı: String" vertex="1">
+          <mxGeometry height="26" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-4" parent="9T72iN5jzkLBOK2CJky1-1" style="label;fontStyle=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png" value="Yazarı : string" vertex="1">
+          <mxGeometry height="26" width="160" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-5" parent="9T72iN5jzkLBOK2CJky1-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Yayın Tarihi: date" vertex="1">
+          <mxGeometry height="26" width="160" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-6" parent="9T72iN5jzkLBOK2CJky1-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-7" parent="9T72iN5jzkLBOK2CJky1-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="odunciste(t): boolean" vertex="1">
+          <mxGeometry height="26" width="160" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="KitapKopyası" vertex="1">
+          <mxGeometry height="60" width="160" x="629" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-9" parent="9T72iN5jzkLBOK2CJky1-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="barkodNo: string" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-10" parent="9T72iN5jzkLBOK2CJky1-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-11" edge="1" parent="1" source="9T72iN5jzkLBOK2CJky1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="9T72iN5jzkLBOK2CJky1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-12" edge="1" parent="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="539" y="140" as="sourcePoint" />
+            <mxPoint x="649" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="330" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="435" width="260" x="490" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-15" edge="1" parent="1" source="9T72iN5jzkLBOK2CJky1-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="9T72iN5jzkLBOK2CJky1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Sisteme giriş yap" vertex="1">
+          <mxGeometry height="75" width="116" x="571" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-17" edge="1" parent="1" source="9T72iN5jzkLBOK2CJky1-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="9T72iN5jzkLBOK2CJky1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-18" edge="1" parent="1" source="9T72iN5jzkLBOK2CJky1-19" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;elbow=vertical;" target="9T72iN5jzkLBOK2CJky1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Kütüphane yöneticisi" vertex="1">
+          <mxGeometry height="60" width="30" x="900" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-20" edge="1" parent="1" source="9T72iN5jzkLBOK2CJky1-13" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.004;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" target="9T72iN5jzkLBOK2CJky1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Kitap&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="119" x="569.5" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="9T72iN5jzkLBOK2CJky1-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;OKYS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="284" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
